@@ -1,0 +1,172 @@
+body{
+	background:linear-gradient(to right, red,yellow);
+	width: 100%;
+}
+
+.title{
+	background: black;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	color: darkorange;
+	letter-spacing: 15px;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+.fcc-btn{
+	background-color: #199319;
+	color: white;
+	padding: 5px 15px;
+	text-decoration: none;
+	float: right;
+	margin-right: 50px;
+	margin-top: 5px;
+}
+
+.fcc-btn a:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;
+	background: #e3e6f3;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+}
+
+#navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#navbar li{
+	list-style: none;
+	padding: 0 20px;
+	position: relative;
+}
+
+#navbar li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: #1a1a1a;
+	transition: 0.3sec ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+	color: darkorange;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+	content: "";
+	width: 30%;
+	height: 2px;
+	background: darkorange;
+	position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#product1{
+	text-align: center;
+}
+
+#product1 .pro-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+
+
+#product1 .pro{
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 1px solid #cce7d0;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow: 20px 20px 30px rgba(0, 0, 0,0.02);
+	margin: 15px 0;
+	transition: 0.2s ease;
+	position: relative;
+}
+
+#product1 .pro:hover{
+	box-shadow: 20px 20px 30px rgba(0, 0,0, 0.06);
+}
+
+
+#product1 .pro img{
+	width: 100%;
+	border-radius: 20px;
+} 
+
+#product1 .pro .des{
+	text-align: start;
+	padding: 10px 0;
+}
+
+#product1 .pro .des span{
+	color: 
+	font-size: 15px;
+}
+
+#product1 .pro .btn{
+	border-radius: 5px;
+	font-weight: 500;
+	background-color: greenyellow;
+	position: absolute;
+	bottom: 40px;
+	right: 10px;
+	border: 1px solid;
+
+}
+
+#product1 .pro h5{
+	color: black;
+	font-size: 15px;
+}
+
+.num1{
+	position: relative;
+	margin-top: 30px;
+	margin-left: 500px;
+	margin-bottom: 10px;
+
+}
+
+.num2{
+	position: relative;
+	margin-top: 3px;
+	margin-left: 605px;
+	margin-bottom: 10px;
+}
+
+.foot1{
+	float: left;
+	width: 50%;
+	padding: 10px;
+	background: black;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: white;
+}
