@@ -1,2 +1,0 @@
-# nyd website
- ecommerce website
