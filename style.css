@@ -1,36 +1,50 @@
 body{
-	background:linear-gradient(to right, red,yellow);
-	width: 100%;
+	background:linear-gradient(to right, red, yellow);
 }
 
-.title{
-	background: black;
-	padding: 20px;
-	margin-bottom: 5px;
+#user{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex direction: column;
+	margin-top: 10px;
+}
+#user .num1{
+	padding: 15px;
+	border: 1px solid #cce7d0;
+	border-radius: 15px;
+	background: whitesmoke;
+	position: relative;
+
 }
 
-h1{
-	text-align: center;
-	font-size: 40px;
-	color: darkorange;
-	letter-spacing: 15px;
-	margin-bottom: 0;
-	margin-top: 5px;
+#user .num1 .sign{
+	position: absolute;
+	bottom: 5px;
+	right: 30px;
+	margin-top: 10px;
+
 }
 
-
-*{
-	box-sizing: border-box;
-}
-
-.fcc-btn{
+#user .num1 .log{
 	background-color: #199319;
 	color: white;
-	padding: 5px 15px;
+	padding: 4px 15px;
 	text-decoration: none;
-	float: right;
-	margin-right: 50px;
-	margin-top: 5px;
+	border-radius: 5px;
+	position: absolute;
+	left: 50px;
+	bottom: 0;
+	margin-top: 10px;
+	
+}
+
+#user .num1 .fcc-btn{
+	background-color: #199319;
+	color: white;
+	padding: 4px 15px;
+	text-decoration: none;
+	border-radius: 5px;
 }
 
 .fcc-btn a:hover{
@@ -38,15 +52,41 @@ h1{
 	color: black;
 }
 
+#products .productses{
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 20px;
+	border-color: whitesmoke;
+	margin-top: 10px;
+}
 
+#lab1{
+	display:flex;
+	flex-wrap: wrap;
+}
+#lab1 .lab{
+	padding: 10px;
+	border: 1px solid #cce7d0;
+	border-radius: 15px;
+	background: whitesmoke;
+
+}
 #header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px 80px;
+	padding: 10px 80px;
 	background: #e3e6f3;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+	z-index: 999;
+	position: sticky;
+	top: 0;
+	left: 0;
 
+}
+
+.logo{
+	color: darkblue;
 }
 
 #navbar{
@@ -98,7 +138,7 @@ h1{
 
 
 #product1 .pro{
-	width: 23%;
+	width: 15%;
 	min-width: 250px;
 	padding: 10px 12px;
 	border: 1px solid #cce7d0;
@@ -146,27 +186,20 @@ h1{
 	font-size: 15px;
 }
 
-.num1{
-	position: relative;
-	margin-top: 30px;
-	margin-left: 500px;
-	margin-bottom: 10px;
-
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 70px;
+	background-color: black;
+	margin-top: 10px;
+	
 }
 
-.num2{
-	position: relative;
-	margin-top: 3px;
-	margin-left: 605px;
-	margin-bottom: 10px;
-}
-
-.foot1{
-	float: left;
-	width: 50%;
-	padding: 10px;
-	background: black;
-	margin-top: 5px;
-	margin-bottom: 10px;
+h3{
 	color: white;
 }
+p{
+	color: white;
+}
+
