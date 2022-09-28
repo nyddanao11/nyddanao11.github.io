@@ -129,7 +129,8 @@ body{
 	padding: 10px;
 	border: 1px solid #cce7d0;
 	border-radius: 15px;
-	background: yellow;
+	background: blue;
+	color: white;
 }
 
 #arrival1{
