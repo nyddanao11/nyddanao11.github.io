@@ -113,9 +113,6 @@ body{
 	position: relative;
 }
 
-#new #lab2{
-	position: ;
-}
 
 #lab2{
 	display:flex;
@@ -211,8 +208,8 @@ body{
 
 #lab1{
 	display:flex;
-	flex-wrap: wrap;
-	width: 50%;
+	align-items: center;
+	justify-content: center;
 }
 #lab1 .lab{
 	padding: 10px;
