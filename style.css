@@ -7,14 +7,14 @@ body{
 }
 
 
-.logo{
+/*.logo{
   margin: 2rem;
   color:black;
   font-size: 25px;
 }
 .log{
   color:#05981d;
-}
+}*/
 
 .primary-header {
 /*  display: flex;*/
@@ -24,14 +24,14 @@ body{
   
 }
 
-/*
+
 .primary-header img{
   margin: 1.2rem;
-  border-radius: 40px;
+/*  border-radius: 40px;*/
   width:50px;
   height: 50px;
 }
-*/
+
 
 #mobile-nav-toggle{
   display: none;
